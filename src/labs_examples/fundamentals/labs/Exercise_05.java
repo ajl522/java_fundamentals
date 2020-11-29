@@ -32,6 +32,7 @@ public class Exercise_05 {
         String upstr = str.toUpperCase();
         System.out.println("str in all caps is " + upstr);
         System.out.println("My first program is called: " + str2.replace('h','H') + " World!");
+        
 
     }
 
