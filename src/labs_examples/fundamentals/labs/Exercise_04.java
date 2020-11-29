@@ -50,7 +50,6 @@ public class Exercise_04 {
 
         System.out.println("The letter sequence ends at " + z);
 
-
     }
 
 }
