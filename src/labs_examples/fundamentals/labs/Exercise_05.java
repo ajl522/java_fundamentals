@@ -25,7 +25,7 @@ public class Exercise_05 {
         System.out.println("Are str & str2 the same? " + equalString);
 
         // please concatenate str & str2 and set the result to a new String variable below
-        
+
         // please demonstrate the use of any other method that is available to us in the String class
         // for example, replace(), substring(), contains(), indexOf() etc
 
