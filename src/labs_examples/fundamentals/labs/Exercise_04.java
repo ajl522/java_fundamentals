@@ -49,7 +49,7 @@ public class Exercise_04 {
         char z = 'g';
 
         System.out.println("The letter sequence ends at " + z);
-        
+
 
     }
 
