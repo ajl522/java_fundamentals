@@ -8,4 +8,15 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_06 {
+
+    public static void main(String []args){
+        int x = 0;
+        int a = 0;
+        while (a <= 100){
+            x += a;
+            a++;
+        }
+
+        System.out.println("The sum of all numbers from 1-100 is: " + x);
+    }
 }
