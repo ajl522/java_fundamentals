@@ -9,5 +9,21 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
+
+        int [][] irRegular = {
+                {36,42,15},
+                {108,22,7,13},
+                {13},
+                {581, 62, 109, 222, 45, 37}
+        };
+
+        for (int a = 0; a < irRegular.length; a++){
+            for (int b = 0; b < irRegular[a].length; b++){
+                System.out.print(irRegular[a][b] + " | ");
+            }
+            System.out.println();
+        }
+    }
 
 }

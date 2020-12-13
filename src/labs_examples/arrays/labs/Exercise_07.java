@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.ArrayList;
+
 /**
  *  ArrayLists
  *
@@ -10,4 +12,22 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[] args) {
+
+        ArrayList<String> exoticCars = new ArrayList();
+
+        exoticCars.add ("Lamborghini Huracan");
+        exoticCars.add ("Ferrari 488 Pista");
+        exoticCars.add ("Aston Martin Vantage");
+        exoticCars.add ("Bentley Continental GT");
+        exoticCars.add ("BMW M8");
+        exoticCars.add ("Mercedes AMG GT");
+        exoticCars.add ("Bugatti Chiron");
+        exoticCars.add ("McLaren 650");
+
+        for (String s : exoticCars){
+            System.out.println(s);
+        }
+
+    }
 }
